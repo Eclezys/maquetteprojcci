@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="FR-fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EVFLO - Fleuriste</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/pansy-logo-evflo.png">
+    <style>
+        body{background-color: #f9f9f9;}
+     .img-logo{
+        width: 70px;
+    }
+    .btn{ background-color: #78036E;
+    color: #fff;}
+    .nav-link{
+        margin: 0 8em 0 10em;
+    }
+    .text-center{text-align: center;}
+    .img-center{
+        width: 100%;
+    }
+ 
+.contenant {
+  position: relative;
+  justify-items: center;
+}
+
+.texte_centrer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+
+  .reseaux-img{
+    width: 25px;
+  }
+  .reseaux-internet{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 170px;
+  }
+  .mention{
+    text-align: center;}
+  .mention a{
+    text-decoration: none;
+    color: black;
+  }
+  .gray-color{
+    background-color: rgb(124, 124, 124);
+  }
+ 
+  section{padding: 10px;
+margin-bottom: 10em;}
+
+ 
+
+
+    
+        </style>
+    
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/pansy-logo-evflo.png" class="img-logo" alt="logo-EVFLO"></a> 
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Galerie</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nos bouquets
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">A propos</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success me-2" type="button">Réserver un bouquet</button>
+                  </form>
+            
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div>
+                <h1 class="text-center">Accueil</h1>
+                <img src="img/petitspots-plantes.jpg" class="img-center" alt="plantes dans un pot">
+            </div>
+        </section>
+        <section class="container">
+            <div>
+                <h2 class="text-center"> Nos bouquets</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card ">
+                        <img src="img/tulipes-bouquet.jpg" alt="bouquet de tulipes">
+                        <h2>Bouquet de tulipes</h2>
+                        <p>Petit bouquet coquet et mignon pour les fans de tulipes.</p>
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-outline-success me-2" type="button">En savoir plus</button>
+                          </form>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/mairage-bouquet.jpg" alt="bouquet de mariage">
+                        <h2>Bouquet de mariage</h2>
+                        <p>Magnifique bouquet de mariage pour ce jour unique. Vous pouvez choisir la couleur de vos roses.</p>
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-outline-success me-2" type="button">En savoir plus</button>
+                          </form>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/bouquet-muguet.jpg" alt="bouquet de muguet">
+                        <h2>Bouquet de muguet</h2>
+                        <p>Un chouette bouquet blanc de muguet, la simplicté est le meilleur.</p>
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-outline-success me-2" type="button">En savoir plus</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container contenant">
+            <img src="img/fleurs-style.png" class="img-center" alt="fleurs art stylisé">
+            <div class="texte_centrer">
+                <h2> Réserver votre bouquet unique</h2>
+                <p>Vous pouvez à tout moment réserver et faire votre propre bouquet* avec les fleurs et la taille de votre choix. Le bouquet sera unique, comme vous.</p>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success me-2" type="button">Réserver un bouquet</button>
+                  </form>
+                <br>
+                <em>*dans la limite des fleurs disponibles</em>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+            <div class="col-md-6 col-12 ">
+                <div class="card">
+                <h2> Qui sommes-nous?</h2>
+                <p>EVFLO une petite entreprise tenue par de jeunes fleuristes Eva et Florence, nous cherchons à faire plaisir à nos clients avec des fleurs venant de chez nous. Vous pouvez à tout moment nous contacter sur nos réseaux sociaux ou par téléphone ou mail. Cliquez sur le bouton pour nous contacter.</p>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success me-2" type="button">A propos</button>
+                  </form>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="card">
+                <img src="img/femme-bouquet-souriante.jpg" alt="Femme souriante avec un bouquet">
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer class="footer gray-color">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/pansy-logo-evflo.png" class="img-logo" alt="logo EVFLO"></a> 
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Galerie</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nos bouquets
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">A propos</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success me-2" type="button">Réserver un bouquet</button>
+                  </form>
+            
+              </div>
+            </div>
+          </nav>
+        <div class="container reseaux-internet ">
+            <a  href="#"><img src="img/reseauximg/icons8-facebook.svg" alt="Facebook" class="reseaux-img"></a>
+            <a  href="#"><img src="img/reseauximg/icons8-linkedin-circled.svg" alt="Linkedin" class="reseaux-img"></a>
+            <a  href="#"><img src="img/reseauximg/icons8-instagram.svg" alt="Instagram" class="reseaux-img"></a>
+            <a  href="#"><img src="img/reseauximg/icons8-twitter.svg" alt="Twitter" class="reseaux-img"></a>
+        </div>
+        <div class='mention'>
+            <a href="#"><p></p>Mentions légales - Politique de confidentialité</p></a>
+        </div>
+
+    </footer>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
